@@ -1,0 +1,8 @@
+#controllers:
+#    resource: ../../src/Controller/
+#    type: annotation
+
+UserApi:
+    resource: ../../src/Controller/CustomerApi
+    type: annotation
+    prefix: /api/v1/Customer
